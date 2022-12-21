@@ -116,7 +116,7 @@
                     </div>
                 </div>
     
-                <div class="md:w-8/12 mx-auto text-center citations">
+                <div class="md:w-[75%] mx-auto text-center citations">
                     <div class="book">
                         <blockquote class="hidden md:block md:text-xl font-[BluuNext]">“Hâtez-vous lentement et, sans perdre courage,<br/><span class="text-primary">vingt fois sur le métier</span> remettez votre ouvrage”</blockquote>
                         <blockquote class="block md:hidden md:text-xl font-[BluuNext]">“Hâtez-vous lentement et, sans perdre courage, <span class="text-primary">vingt fois sur le métier</span> remettez votre ouvrage”</blockquote>
@@ -409,7 +409,7 @@
                 <h3>À propos</h3>
     
                 <div class="mt-[10px] grid grid-cols-1 lg:grid-cols-2 gap-5 about-directions">
-                    <div class="flex flex-col md:flex-row justify-center items-center gap-y-5 gap-x-10 bg-primary border border-lightgrey rounded-[40px] py-10 md:py-16 about-me">
+                    <a href="#about-me" class="flex flex-col md:flex-row justify-center items-center gap-y-5 gap-x-10 bg-primary border border-lightgrey rounded-[40px] py-10 md:py-16 about-me">
                         <img class="about-img" src="./assets/images/planet.svg" alt="Planet illustration" />
     
                         <div class="text-white flex flex-col items-center md:items-start col-y-[5px] about-me--title">
@@ -420,9 +420,9 @@
                                 Mon univers
                             </span>
                         </div>
-                    </div>
+                    </a>
                     
-                    <div class="flex flex-col md:flex-row justify-center items-center gap-y-5 gap-x-10 bg-secondary border border-lightgrey rounded-[40px] py-10 md:py-16 about-formations">
+                    <a href="#about-formations" class="flex flex-col md:flex-row justify-center items-center gap-y-5 gap-x-10 bg-secondary border border-lightgrey rounded-[40px] py-10 md:py-16 about-formations">
                         <img class="about-img" src="./assets/images/arrow.svg" alt="Arrow illustration" />
     
                         <div class="flex flex-col items-center md:items-start col-y-[5px] about-formations--title">
@@ -433,7 +433,7 @@
                                 Mon parcours
                             </span>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </section>
         </div>
@@ -489,5 +489,125 @@
                 </div>
             </div>
         </footer>
+
+        <div id="about-me">
+            <div class="flex h-full justify-center items-center py-[10vh]">
+                <div class="z-10 container bg-primary rounded-[40px] border border-lightgrey h-full py-12 overflow-hidden">
+                    <div class="flex justify-between items-start">
+                        <div class="flex flex-row items-center gap-y-5 gap-x-6">
+                            <img class="modal-about-img" src="./assets/images/planet.svg" alt="Planet illustration" />
+        
+                            <div class="text-white flex flex-col items-center md:items-start col-y-[5px] about-me--title">
+                                <span class="text-xl title-minus">
+                                    Découvrez
+                                </span>
+                                <span class="font-[BluuNext] text-4xl lg:text-50 leading-none title-info">
+                                    Mon univers
+                                </span>
+                            </div>
+                        </div>
+
+                        <a class="mt-2" href="#!">
+                            <svg class="modal-img-exit" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 40">
+                                <path fill="#fff" d="M30.414 30.964c.576.344.507 1.043.073 1.941a1.753 1.753 0 0 1-1.055.723 7.7 7.7 0 0 1-1.13-.41c-.205-.114-2.618-2.398-3.498-3.089a25.34 25.34 0 0 1-2.344-2.243 102.23 102.23 0 0 0-4.719-4.58 9.084 9.084 0 0 1-.97-1.085 18.337 18.337 0 0 0-3.55-3.528 1.584 1.584 0 0 0-.73-.427c-.803-.45-1.56-.977-2.259-1.575a24.36 24.36 0 0 1-2.164-1.81c-.962-1.125-2.02-2.13-3.04-3.21-.144-.154-.358-.235-.404-.503a1.711 1.711 0 0 0-.867-1.112 16.058 16.058 0 0 1-1.42-1.268 3.73 3.73 0 0 1-.488-.96c-.125-.313.337-.784.44-.788.355-.02.322-.407.45-.654.039-.088.086-.173.14-.253.696.08 1.381.232 2.046.453.77.194 1.524.446 2.255.753l.788.44c.46.285 1.092.637 1.713 1.039l2.778 1.836c.267.198.5.44.686.715.12.095 3.717 2.677 3.835 2.819a6.92 6.92 0 0 1 1.853 2.092c.089.163.217.301.372.402a31.351 31.351 0 0 1 3.206 3.455c.521.607 1.098 1.163 1.64 1.746.087.12.165.245.233.376.091.16.195.313.31.457 1.302 1.368 2.391 2.927 3.71 4.28.313.314 1.277 2.201 1.625 2.561.183.176.264 1.269.485 1.407Z"/>
+                                <path fill="#fff" d="M4.712 33.404c-.144.665-.814.855-1.81.79-.317-.027-1.016-.492-1.015-.71-.008-.421.02-.842.081-1.258.273-.673.58-1.332.918-1.974.512-.962 1.065-2.062 1.37-2.602a19.32 19.32 0 0 1 2.002-2.997 87.706 87.706 0 0 1 4.716-5.645 9.828 9.828 0 0 1 1.221-1.09c.745-.575 1.48-1.148 2.171-1.778.69-.63 1.392-1.24 2.078-1.918.25-.195.455-.441.603-.721a13.197 13.197 0 0 1 2.248-2.079 21.191 21.191 0 0 1 2.582-1.854c1.5-.702 2.93-1.472 4.418-2.139.21-.098.388-.278.66-.233a2.146 2.146 0 0 0 1.46-.444c.609-.327 1.246-.6 1.903-.813a3.71 3.71 0 0 1 1.115-.055c.344.004.506.641.445.746-.17.324.187.466.34.687.06.07.107.15.141.236a10.075 10.075 0 0 1-1.413 1.56 20.28 20.28 0 0 1-1.672 1.619s-.33.209-.77.527c-.439.318-1.024.734-1.618 1.16-.594.427-1.178.907-1.658 1.274s-.82.676-.935.78a3.289 3.289 0 0 1-.864.477c-.077.026-.93.785-1.784 1.534-.854.748-1.653 1.551-1.728 1.598a8.658 8.658 0 0 1-2.164 1.638 1.403 1.403 0 0 0-.427.337c-1.102 1.1-2.306 2.103-3.444 3.18a27.45 27.45 0 0 0-1.618 1.774c-.106.1-.22.191-.34.274-.149.109-.288.231-.414.366a43.084 43.084 0 0 0-3.587 4.478c-.278.334-1.77 1.856-2.029 2.298-.115.27-1.12.718-1.182.977Z"/>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="modal-content text-white relative flex gap-x-[5vw] h-full">
+                        <div class="w-full md:w-2/3 h-8/10 overflow-scroll mt-10 mb-24">
+                            <p>
+                                Je suis Cathy Yubero, Consultante en ingénierie de formation, AFEST et Digital learning, 
+                                J'ai aussi réalisé des missions d'ingénierie de certification.
+                            </p>
+                            <p>
+                                J’ai travaillé au sein d’organismes de formation, au sein d’institutions parapubliques et en entreprise. 
+                                J’ai eu l’occasion de monter des projets de formation dans différents secteurs professionnels : <strong>santé, soin, commerce, investissement, audiovisuel, qualité, jeux vidéo, tourisme, insertion, grande distribution</strong>…
+                            </p>
+                            <p>
+                                En partenariat avec des cabinets RH ou des agences de digital learning, j’interviens en accompagnement des directions, des services RH, du top management, des managers de proximité et des managés.
+                            </p>
+                            <p>
+                                Passionnée par tout ce qui touche de près ou de loin à la transmission, je me forme moi-même régulièrement.
+                                Je mène également une veille sur les évolutions de la formation, des enjeux entreprise, des enjeux management et des outils digitaux.
+                            </p>
+                            <h4 class="md:text-2xl leading-tight">
+                                Où vais-je chercher l’inspiration pour la création de modules de digital learning ?
+                            </h4>
+                            <p>
+                                Qu’il s’agisse de créer des supports écrits interactifs, de scénariser et produire des modules vidéos ou des planches de BD, j’ai à cœur de mettre ma créativité au service du message pédagogique.
+                            </p>
+                            <p>
+                                Fan de romans graphiques, de cinéma et de littérature, je suis chaque jour surprise par la force créative de l’imagination et de la réflexion.
+                                En image ou en mots, j’aime visiter les univers futuristes de la science-fiction et lire des romans d’anticipation.
+                                J’aime aussi particulièrement la littérature et le cinéma japonais. 
+                                Ma découverte a débuté avec le cinéma d’animation de Miyazaki, s’est poursuivie avec la lecture de “La pierre et le sabre” de Yoshikawa et se poursuit avec d'autres. 
+                                Je puise peut-être dans tout cela des éléments de ma posture professionnelle. 
+                                Je me situe à la croisée de la tradition et de la modernité, de la pédagogie et de la technologie, de la rigueur et de la créativité.
+                            </p>
+                        </div>
+
+                        <div class="w-full md:w-1/3">
+                            <img class="modal-content-img mt-[3.5vh]" src="./assets/images/cathy.png" alt="Photo de Cathy Yubero">
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#!" class="outside-trigger"></a>
+            </div>
+        </div>
+        
+        <div id="about-formations">
+            <div class="flex h-full justify-center items-center py-[10vh]">
+                <div class="z-10 container bg-secondary rounded-[40px] border border-lightgrey h-full py-12 overflow-hidden">
+                    <div class="flex justify-between items-start">
+                        <div class="flex flex-row items-center gap-y-5 gap-x-6">
+                            <img class="modal-about-img" src="./assets/images/arrow.svg" alt="Planet illustration" />
+        
+                            <div class="text-tertiary flex flex-col items-center md:items-start col-y-[5px] about-me--title">
+                                <span class="text-xl title-minus">
+                                    Voir
+                                </span>
+                                <span class="font-[BluuNext] text-4xl lg:text-50 leading-none title-info">
+                                    Mon parcours
+                                </span>
+                            </div>
+                        </div>
+
+                        <a class="mt-2" href="#!">
+                            <svg class="modal-img-exit" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 40">
+                                <path fill="#1B1F3B" d="M30.414 30.964c.576.344.507 1.043.073 1.941a1.753 1.753 0 0 1-1.055.723 7.7 7.7 0 0 1-1.13-.41c-.205-.114-2.618-2.398-3.498-3.089a25.34 25.34 0 0 1-2.344-2.243 102.23 102.23 0 0 0-4.719-4.58 9.084 9.084 0 0 1-.97-1.085 18.337 18.337 0 0 0-3.55-3.528 1.584 1.584 0 0 0-.73-.427c-.803-.45-1.56-.977-2.259-1.575a24.36 24.36 0 0 1-2.164-1.81c-.962-1.125-2.02-2.13-3.04-3.21-.144-.154-.358-.235-.404-.503a1.711 1.711 0 0 0-.867-1.112 16.058 16.058 0 0 1-1.42-1.268 3.73 3.73 0 0 1-.488-.96c-.125-.313.337-.784.44-.788.355-.02.322-.407.45-.654.039-.088.086-.173.14-.253.696.08 1.381.232 2.046.453.77.194 1.524.446 2.255.753l.788.44c.46.285 1.092.637 1.713 1.039l2.778 1.836c.267.198.5.44.686.715.12.095 3.717 2.677 3.835 2.819a6.92 6.92 0 0 1 1.853 2.092c.089.163.217.301.372.402a31.351 31.351 0 0 1 3.206 3.455c.521.607 1.098 1.163 1.64 1.746.087.12.165.245.233.376.091.16.195.313.31.457 1.302 1.368 2.391 2.927 3.71 4.28.313.314 1.277 2.201 1.625 2.561.183.176.264 1.269.485 1.407Z"/>
+                                <path fill="#1B1F3B" d="M4.712 33.404c-.144.665-.814.855-1.81.79-.317-.027-1.016-.492-1.015-.71-.008-.421.02-.842.081-1.258.273-.673.58-1.332.918-1.974.512-.962 1.065-2.062 1.37-2.602a19.32 19.32 0 0 1 2.002-2.997 87.706 87.706 0 0 1 4.716-5.645 9.828 9.828 0 0 1 1.221-1.09c.745-.575 1.48-1.148 2.171-1.778.69-.63 1.392-1.24 2.078-1.918.25-.195.455-.441.603-.721a13.197 13.197 0 0 1 2.248-2.079 21.191 21.191 0 0 1 2.582-1.854c1.5-.702 2.93-1.472 4.418-2.139.21-.098.388-.278.66-.233a2.146 2.146 0 0 0 1.46-.444c.609-.327 1.246-.6 1.903-.813a3.71 3.71 0 0 1 1.115-.055c.344.004.506.641.445.746-.17.324.187.466.34.687.06.07.107.15.141.236a10.075 10.075 0 0 1-1.413 1.56 20.28 20.28 0 0 1-1.672 1.619s-.33.209-.77.527c-.439.318-1.024.734-1.618 1.16-.594.427-1.178.907-1.658 1.274s-.82.676-.935.78a3.289 3.289 0 0 1-.864.477c-.077.026-.93.785-1.784 1.534-.854.748-1.653 1.551-1.728 1.598a8.658 8.658 0 0 1-2.164 1.638 1.403 1.403 0 0 0-.427.337c-1.102 1.1-2.306 2.103-3.444 3.18a27.45 27.45 0 0 0-1.618 1.774c-.106.1-.22.191-.34.274-.149.109-.288.231-.414.366a43.084 43.084 0 0 0-3.587 4.478c-.278.334-1.77 1.856-2.029 2.298-.115.27-1.12.718-1.182.977Z"/>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="modal-content relative flex gap-x-[5vw] h-full">
+                        <div class="w-full md:w-2/3 h-8/10 overflow-scroll mt-10 mb-24">
+                            <p>
+                                Après quelques années dans le travail social, j'ai obtenu un DU de Formatrice en 2009. J'ai exercé auprès de publics très divers.<br/>
+                                Un temps de formation au CNAM de Bordeaux m'a permis de devenir Responsable de formation à l'échelle régionale en 2016.<br/>
+                                J'ai eu l'occasion d'être formée à l'ingénierie de formation et à l'ingénierie de certification RNCP par une mentore exceptionnelle. 
+                                Puis j'ai obtenu en 2019 un DU Chef de projet Digital learning.
+                            </p>
+                            <p>
+                                J'ai développé des projets de vidéo learning, des épisodes de podcasts, et scénarisé des motions design.<br/>
+                                En décembre 2022, j'ai obtenu la certification de Référent Afest C-Campus. 
+                            </p>
+                            <p>
+                                Bientôt je me formerai à l'ingénierie de formation en Immersive learning.
+                            </p>
+                        </div>
+
+                        <div class="w-full md:w-1/3">
+                            <img class="modal-content-img mt-[3.5vh]" src="./assets/images/cubes.png" alt="Photo de Cathy Yubero">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#!" class="outside-trigger"></a>
+        </div>
     </body>
 </html>

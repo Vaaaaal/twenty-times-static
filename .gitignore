@@ -1,4 +1,4 @@
 /src/input.css
 tailwind.config.js
 .vscode
-.DS_Store
+**/.DS_Store
