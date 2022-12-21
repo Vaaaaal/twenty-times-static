@@ -638,6 +638,10 @@ video {
   margin-top: 2.5rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .mb-24 {
   margin-bottom: 6rem;
 }
@@ -932,13 +936,16 @@ video {
   padding-bottom: 30px;
 }
 
-.py-\[10vh\] {
-  padding-top: 10vh;
-  padding-bottom: 10vh;
-}
-
 .pb-\[30px\] {
   padding-bottom: 30px;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
 }
 
 .text-center {
@@ -1645,7 +1652,7 @@ header .nav-logo {
 
 #about-me .modal-about-img,
 #about-formations .modal-about-img {
-  width: 90px;
+  width: 70px;
 }
 
 #about-me .modal-img-exit,
@@ -1703,6 +1710,11 @@ header .nav-logo {
 @media screen and (min-width: 768px) {
   #about {
     margin-top: 120px;
+  }
+
+  #about-me .modal-about-img,
+    #about-formations .modal-about-img {
+    width: 90px;
   }
 }
 
@@ -1776,6 +1788,14 @@ footer {
     position: sticky;
   }
 
+  .md\:mb-24 {
+    margin-bottom: 6rem;
+  }
+
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1816,6 +1836,27 @@ footer {
     justify-content: space-between;
   }
 
+  .md\:overflow-auto {
+    overflow: auto;
+  }
+
+  .md\:overflow-scroll {
+    overflow: scroll;
+  }
+
+  .md\:rounded-\[40px\] {
+    border-radius: 40px;
+  }
+
+  .md\:border {
+    border-width: 1px;
+  }
+
+  .md\:border-lightgrey {
+    --tw-border-opacity: 1;
+    border-color: rgb(234 234 234 / var(--tw-border-opacity));
+  }
+
   .md\:px-2 {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
@@ -1849,6 +1890,11 @@ footer {
   .md\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+
+  .md\:py-\[10vh\] {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
   }
 
   .md\:text-left {
